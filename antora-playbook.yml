@@ -1,0 +1,20 @@
+site:
+  title: Asset Administration Shell Documentation
+  # url:
+  start_page: index::index.adoc
+
+content:
+  sources:
+    - url: .
+      branches: HEAD
+    - url: https://github.com/rwth-iat/aas-specs
+      branches: asciidoc_master
+      start_path: docs
+
+ui:
+  bundle:
+    url: .
+    snapshot: true
+    
+runtime:
+  fetch: true
