@@ -16,7 +16,7 @@ Before proceeding, you are required to have the latest [Node.js LTS release](htt
 ### Building
 In order to locally build the documentation website on your own, you have to make sure you have Antora CLI installed on your machine first. You can then continue with cloning this repository. All you have to do is run the following commands in order:
 ```
-npm i @antora/cli@3.1 @antora/site-generator@3.1
+npm i
 npx antora generate antora-playbook.yml
 ```
 The generated website should appear under build/site/.
