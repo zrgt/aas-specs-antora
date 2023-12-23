@@ -19,7 +19,7 @@ In order to locally build the documentation website on your own, you have to mak
 npm i
 npx antora generate antora-playbook.yml
 ```
-The generated website should appear under build/site/.
+The generated website should appear under build.
 
 ## CI/CD Pipeline
 This repository is ```not yet, but will be``` scheduled to build ```not determined``` times per day```maybe hour?```. If you push your documentation changes to one of the source repositories, it might not appear instantly once you have pushed, you have to wait until the website rebuilds automatically.

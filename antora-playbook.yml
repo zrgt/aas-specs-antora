@@ -8,12 +8,11 @@ content:
     - url: .
       branches: HEAD
     - url: https://github.com/rwth-iat/aas-specs
-      branches: asciidoc_master
-      start_path: docs
-
+      branches: antora-docs
+      start-paths: Part 1
 ui:
   bundle:
-    url: .
+    # url: 
     snapshot: true
     
 runtime:
