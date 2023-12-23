@@ -2,6 +2,7 @@
 
 ## Description
 This is repository contains the documentation for the project [aas-specs](https://github.com/rwth-iat/aas-specs) whose generation is within the scope of this very repository itself as well as the means to generate it on demand by compiling and assembling the respective content from numerous remote repositories and sources written in ascii-doc using [Antora](https://antora.org/).
+
 #### Note
 Please note that this repository is in active development and things might not work.
 
@@ -25,6 +26,4 @@ The generated website should appear under build.
 This repository is ```not yet, but will be``` scheduled to build ```not determined``` times per day```maybe hour?```. If you push your documentation changes to one of the source repositories, it might not appear instantly once you have pushed, you have to wait until the website rebuilds automatically.
 
 ## License
-License not yet determined to publish the project under. At this point no permission granted for anything regarding the source or the project itself for the time being. Only those with respective rights are authorized. 
-
-This project is under the ```not determined```. See the [LICENSE](LICENSE) file for details.
+This project is under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
