@@ -12,7 +12,7 @@ content:
       start-paths: Part 1
 ui:
   bundle:
-    # url: 
+    url: https://github.com/rwth-iat/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
     
 runtime:
