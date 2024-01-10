@@ -9,7 +9,11 @@ content:
       branches: HEAD
     - url: https://github.com/rwth-iat/aas-specs
       branches: antora-docs
-      start-paths: Part 1
+      start-paths: Part 1, Part 2, Part 5
+      
+    # - url: https://github.com/admin-shell-io/aas-specs-api
+    #   branches: asciidoc
+    #   start-paths: documentation
 ui:
   bundle:
     url: https://github.com/rwth-iat/aas-specs-antora-ui/releases/latest/download/ui-bundle.zip
