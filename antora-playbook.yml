@@ -9,7 +9,7 @@ content:
       branches: HEAD
     - url: https://github.com/rwth-iat/aas-specs
       branches: antora-docs
-      start-paths: Part 1, Part 2, Part 5
+      start-paths: Part 1, Part 2, Part 5, Part 3a
       
     # - url: https://github.com/admin-shell-io/aas-specs-api
     #   branches: asciidoc
