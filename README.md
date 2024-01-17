@@ -23,7 +23,7 @@ npx antora generate antora-playbook.yml
 The generated website should appear under build.
 
 ## CI/CD Pipeline
-This repository is ```not yet, but will be``` scheduled to build ```not determined``` times per day```maybe hour?```. If you push your documentation changes to one of the source repositories, it might not appear instantly once you have pushed, you have to wait until the website rebuilds automatically.
+This repository is scheduled to re-build and deploy the website at 00:00 UTC every day. This means content from the source repositories are pulled and website is built again accordingly. This once a day cycle might be changed to several times a day in the future, once it makes sense. If documentation changes are pushed to one of the source repositories, it might not appear instantly once they are pushed, you have to wait until the website rebuilds automatically.
 
 ## License
 This project is under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
