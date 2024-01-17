@@ -1,4 +1,4 @@
-== Asset Administration Shell | Documentation
+= Asset Administration Shell | Documentation
 
 Welcome to the documentation site of the Asset Administration Shell. 
 
