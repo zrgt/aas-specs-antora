@@ -10,6 +10,9 @@ content:
     - url: https://github.com/rwth-iat/aas-specs
       branches: antora-docs
       start-paths: Part 1, Part 2, Part 5, Part 3a
+    - url:  https://github.com/admin-shell-io/aas-specs
+      branches: BiBo/IDTA-01001-3-1_working
+      start-paths: documentation/IDTA-01001
       
     # - url: https://github.com/admin-shell-io/aas-specs-api
     #   branches: asciidoc
