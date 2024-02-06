@@ -28,5 +28,4 @@ runtime:
   
 antora:
   extensions:
-  - require: '@antora/lunr-extension'
-
+  - '@antora/lunr-extension'
