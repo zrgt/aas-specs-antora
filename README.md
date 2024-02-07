@@ -1,16 +1,29 @@
-# aas-specs-antora
+# Antora Meta-Repository - Asset Administration Shell (AAS) 
 
-## Description
-This is repository contains the structure for building the documentation website for the Asset Administration Shell by [the Industrial Digital Twin Association](https://industrialdigitaltwin.org). This includes the means to generate it on demand by compiling and assembling the respective content from numerous remote repositories and sources written in ascii-doc using [Antora](https://antora.org/).
+This is repository contains the structure for building the documentation website for the AAS by [the Industrial Digital Twin Association](https://industrialdigitaltwin.org). This includes the means to generate it on demand by compiling and assembling the respective content from numerous remote repositories and sources written in ascii-doc using [Antora](https://antora.org/).
 
-## Sources & Structure
-This very repository is responsible for automatically building the documentation website either manually on demand by someone with required privileges or also automatically 4 times a day. The contents of the website is not to be found in this repo. The user interface is hosted in [aas-specs-antora-ui](https://github.com/admin-shell-io/aas-specs-antora-ui).
+## Sources
+This repository does not contain the website's content itself; instead, it coordinates the assembly of content from external sources, including:
+- [Part 1: Core Concepts](https://github.com/admin-shell-io/aas-specs/)
+- [Part 2: API Specifications](https://github.com/admin-shell-io/aas-specs-api)
+- [Part 3a: IEC 61360 Compliance](https://github.com/admin-shell-io/aas-specs-iec61360)
+- [Part 5: AASX Package Format](https://github.com/admin-shell-io/aas-specs-aasx)
 
-The sources for [Part 1](https://github.com/admin-shell-io/aas-specs/), [Part 2](https://github.com/admin-shell-io/aas-specs-api), [Part 3a](https://github.com/admin-shell-io/aas-specs-iec61360) and [Part 5](https://github.com/admin-shell-io/aas-specs-aasx) are all pulled from various different upstream repositories. As with all documentation websites that are built using Antora and automated, the information of the sources can be found in the [Antora playbook](antora-playbook.yml).
+Detailed information about source management is available in the [Antora playbook](antora-playbook.yml).
 
-These sources should be edited carefully. If you are developing or maintaining this documentation sources, try testing locally on your machine before doing pushes. If you cannot do this for some reason or would like personal assistance, please open an issue here so that we can provide you with further detailed instructions. If you want to test on the website directly for your convenience anyway, you can open an issue and we can grant you the required privileges to run the build workflow manually. This way, you can do your changes and build & deploy again manually to see your changes. We strongly recommend to refrain from this option as it may introduce further complications on the process. The website also builds every 6 hours, so it might be also reasonable to wait to see your changes.
+## User-Interface
+The user interface for the documentation is maintained separately in [aas-specs-antora-ui](https://github.com/admin-shell-io/aas-specs-antora-ui). 
 
-If you reckon there are problems with the sources in any way, you can open an issue here and we can try to fix those structural problems upstream. We are happy to open pull request on the sources. If you maintain one of the sources, don't hesitate to open issues here for structural fixes.
+## Building the Documentation
+The documentation is dynamically generated
+- automatically every 6-hours or
+- manually by authorized individuals
+
+## Contribution Guidelines
+Contributors should test changes locally before pushing to remote repositories to maintain the integrity of the documentation. If local testing is not feasible, or if you require assistance, please [open an issue](https://github.com/admin-shell-io/aas-specs-antora/issues) for detailed guidance or to request manual build privileges. While direct testing on the live website is possible, it's discouraged due to potential complications. The site is also automatically updated several times a day, allowing for a natural review of changes.
+
+## Reporting Issues
+For issues related to the documentation structure or content, please [open an issue](https://github.com/admin-shell-io/aas-specs-antora/issues). We are proactive in addressing structural concerns upstream and welcome pull requests for improvements. Source maintainers are encouraged to report any structural issues directly in this repository.
 
 ## Usage
 
