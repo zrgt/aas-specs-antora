@@ -1,4 +1,39 @@
-= The Asset Administration Shell Documentation
+image::idta-logo.png[aas-spec-IDTA-01001]
 
-Welcome to the documentation site of the Asset Administration Shell. 
+= Specifications of the Asset Administration Shell
 
+
+**Welcome to the home of the specifications of the Asset Administration Shell**
+
+&nbsp;
+
+
+Refer to  the https://industrialdigitaltwin.org[IDTA,window=_blank] for more information on the Asset Administration Shell.
+
+== Release 2024-01
+
+[cols="1,1"]
+|===
+a|
+image::IDTA-01001-3-1.png[xref=IDTA-01001:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+xref:IDTA-01001:ROOT:IDTA-01001_Preamble.adoc[Part 1: Metamodel, window=_blank,opts=nofollow]
+
+
+The Metamodel of the AAS.
+a|
+image::IDTA-01002-3-1.png[xref=IDTA-01002-3:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+xref:IDTA-01002-3:ROOT:IDTA-01002_SpecificationAssetAdministrationShell_Part2_API.adoc[Part 2: API, window=_blank,opts=nofollow]
+
+The API of the AAS.
+a|
+image::IDTA-01003-a.png[xref=IDTA-01003-a:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+xref:IDTA-01003-a:ROOT:IDTA-01003-a_Intro.adoc[Part 3a: Data Specification IEC61360, window=_blank,opts=nofollow]
+
+The data specification IEC61360 of the AAS.
+a|
+image::IDTA-01005.png[xref=IDTA-01005:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+xref:IDTA-01005:ROOT:IDTA-01005_AASX.adoc[Part 5: AASX, window=_blank,opts=nofollow]
+
+The AASX file format of the AAS.
+|===
+&nbsp;
