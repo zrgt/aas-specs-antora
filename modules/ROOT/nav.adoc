@@ -1,0 +1,5 @@
+* xref:index.adoc[Main Page]
+* xref:IDTA-01001:ROOT:index.adoc[Part 1: Metamodel] 
+* xref:IDTA-01002-3:ROOT:index.adoc[Part 2: Application Programming Interfaces] 
+* xref:IDTA-01003-a:ROOT:index.adoc[Part 3a: Data Specification] 
+* xref:IDTA-01005:ROOT:index.adoc[Part 5: Package File Format (AASX)] 
