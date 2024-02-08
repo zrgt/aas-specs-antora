@@ -4,9 +4,9 @@ This is repository contains the structure for building the documentation website
 
 ## Sources
 This repository does not contain the website's content itself; instead, it coordinates the assembly of content from external sources, including:
-- [Part 1: Core Concepts](https://github.com/admin-shell-io/aas-specs/)
+- [Part 1: Metamodel](https://github.com/admin-shell-io/aas-specs/)
 - [Part 2: API Specifications](https://github.com/admin-shell-io/aas-specs-api)
-- [Part 3a: IEC 61360 Compliance](https://github.com/admin-shell-io/aas-specs-iec61360)
+- [Part 3a: IEC 61360](https://github.com/admin-shell-io/aas-specs-iec61360)
 - [Part 5: AASX Package Format](https://github.com/admin-shell-io/aas-specs-aasx)
 
 Detailed information about source management is available in the [Antora playbook](antora-playbook.yml).
