@@ -1,7 +1,6 @@
-image::idta-logo.png[aas-spec-IDTA-01001]
-
 = Specifications of the Asset Administration Shell
 
+image::idta-logo.png[aas-spec-IDTA-01001]
 
 **Welcome to the home of the specifications of the Asset Administration Shell**
 
