@@ -9,7 +9,7 @@ image::idta-logo.png[aas-spec-IDTA-01001]
 
 Refer to  the https://industrialdigitaltwin.org[IDTA,window=_blank] for more information on the Asset Administration Shell.
 
-== Release 2024-01
+== DRAFT Release 2024-01
 
 [cols="1,1"]
 |===
