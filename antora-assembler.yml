@@ -5,4 +5,5 @@ asciidoc:
     source-highlighter: rouge
     pdf-theme: pdf-theme.yml
 build:
-  command: asciidoctor-pdf
+  command: bundle exec asciidoctor-pdf --sourcemap
+  keep_aggregate_source: true

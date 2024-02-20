@@ -43,8 +43,11 @@ jobs:
         node-version: '18'
     - name: Install Antora
       run: npm i antora
-    - name: Install Asciidoctor-PDF
-      run: sudo apt install ruby-asciidoctor-pdf asciidoctor 
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
     - name: Generate Site
       run: npx antora antora-playbook.yml
     - name: Upload Artifacts
