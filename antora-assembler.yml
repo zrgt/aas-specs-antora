@@ -3,6 +3,6 @@ component_versions: '*'
 asciidoc:
   attributes:
     source-highlighter: rouge
-    pdf-theme: ./pdf-theme.yml
+    pdf-theme: pdf-theme.yml
 build:
   command: asciidoctor-pdf
