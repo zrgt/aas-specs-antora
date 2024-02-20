@@ -44,7 +44,7 @@ jobs:
     - name: Install Antora
       run: npm i antora
     - name: Install Antora-PDF
-      run: apt install antora-pdf
+      run: sudo apt install antora-pdf
     - name: Generate Site
       run: npx antora antora-playbook.yml
     - name: Upload Artifacts
