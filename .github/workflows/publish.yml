@@ -43,8 +43,8 @@ jobs:
         node-version: '18'
     - name: Install Antora
       run: npm i antora
-    - name: Install Antora-PDF
-      run: sudo apt install antora-pdf
+    - name: Install Asciidoctor-PDF
+      run: sudo apt install ruby-asciidoctor-pdf
     - name: Generate Site
       run: npx antora antora-playbook.yml
     - name: Upload Artifacts
