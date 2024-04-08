@@ -5,9 +5,9 @@ site:
 
 content:
   sources:
-    #- url: .
-    #  branches: HEAD
-    #  start-paths: .
+    - url: .
+      branches: HEAD
+      start-paths: .
     - url: https://github.com/rwth-iat/aas-specs
       branches: antora-docs
       start-paths: Part 1, Part 2, Part 5, Part 3a
