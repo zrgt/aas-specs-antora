@@ -43,4 +43,3 @@ antora:
 asciidoc:
   attributes:
     xrefstyle: short
-    sectnums: ''
