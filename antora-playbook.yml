@@ -21,7 +21,7 @@ content:
       branches: IDTA-01003-a-3-1_working
       start-paths: documentation/IDTA-01003-a
     - url: https://github.com/admin-shell-io/aas-specs-aasx
-      branches: IDTA-01005-3-1_working
+      branches: [IDTA-01005-3-1_working, improve/format]
       start-paths: documentation/IDTA-01005
 
 ui:
