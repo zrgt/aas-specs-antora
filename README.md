@@ -16,27 +16,27 @@ The user interface for the documentation is maintained separately in [aas-specs-
 
 ## Building the Documentation
 The documentation is dynamically generated
-- automatically every 6-hours or
-- manually by authorized individuals
+- Automatically every X-hours or
+- Manually by authorized individuals
+  - To build and deploy the documentation website manually:
+    - Go to action [Publish Website](https://github.com/admin-shell-io/aas-specs-antora/actions/workflows/publish.yml)
+    - Trigger the action by clicking on "Run Workflow" in the right corner
 
 ## PDF Versions of the Documentation Sources
 The automatic generation and deployment system also generates pdf versions of all sources. These are generated alongside the website at the same time. For the time being, you can access them in the following links:
 
-* [Main Page](https://rwth-iat.github.io/aas-specs-antora/index/dev/the-asset-administration-shell-specification.pdf)
+* [Main Page](https://admin-shell-io.github.io/aas-specs-antora/index/dev/the-asset-administration-shell-specification.pdf)
 
-* [Part 1](https://rwth-iat.github.io/aas-specs-antora/IDTA-01001/snapshot/draft-part-1-metamodel.pdf)
+* [Part 1](https://admin-shell-io.github.io/aas-specs-antora/IDTA-01001/snapshot/draft-part-1-metamodel.pdf)
 
-* [Part 2](https://rwth-iat.github.io/aas-specs-antora/IDTA-01002-3/snapshot/draft-part-2-api.pdf)
+* [Part 2](https://admin-shell-io.github.io/aas-specs-antora/IDTA-01002-3/snapshot/draft-part-2-api.pdf)
 
-* [Part 3a](https://rwth-iat.github.io/aas-specs-antora/IDTA-01003-a/snapshot/draft-specification-asset-administration-shell-part-3a-iec61360.pdf)
+* [Part 3a](https://admin-shell-io.github.io/aas-specs-antora/IDTA-01003-a/snapshot/draft-specification-asset-administration-shell-part-3a-iec61360.pdf)
 
-* [Part 5](https://rwth-iat.github.io/aas-specs-antora/IDTA-01005/snapshot/draft-specification-asset-administration-shell-part-5-aasx-package-format.pdf)
+* [Part 5](https://admin-shell-io.github.io/aas-specs-antora/IDTA-01005/snapshot/draft-specification-asset-administration-shell-part-5-aasx-package-format.pdf)
 
 ## Contribution Guidelines
 Contributors should test changes locally before pushing to remote repositories to maintain the integrity of the documentation. If local testing is not feasible, or if you require assistance, please [open an issue](https://github.com/admin-shell-io/aas-specs-antora/issues) for detailed guidance or to request manual build privileges. While direct testing on the live website is possible, it's discouraged due to potential complications. The site is also automatically updated several times a day, allowing for a natural review of changes.
-
-## Reporting Issues
-For issues related to the documentation structure or content, please [open an issue](https://github.com/admin-shell-io/aas-specs-antora/issues). We are proactive in addressing structural concerns upstream and welcome pull requests for improvements. Source maintainers are encouraged to report any structural issues directly in this repository.
 
 ## Usage
 
@@ -55,13 +55,7 @@ npx antora generate antora-playbook.yml
 The generated website should appear under build.
 
 ### CI/CD Pipeline
-This repository is scheduled to re-build and deploy the website 4 times a day. Specifically, this happens at 00:00, 06:00, 12:00 and 18:00 UTC every day. This means content from the source repositories are pulled and website is built again accordingly. This is a 6 hour cycle. If documentation changes are pushed to one of the source repositories, it might not appear instantly once they are pushed, you have to wait until the website rebuilds automatically.
-
-### Manual Building and Deployment
-You can not trigger the workflow to build and deploy the documentation website by yourself if you do not have the privileges in the repository. If you do, then you can for troubleshooting. Anyone can still fork the repository and manually build on their own github subdomain. In this case, relevant files need to be edited to replace the url to your own fork before deployment. This is unnecessary in most cases and is of little benefit for development if any, as most anything can be tested locally on demand.
-
-### Manually Triggering the Workflow
-Anyone with sufficient privileges is in the position to manually trigger a build the website outside of the schedule using the github actions page of the repository. This would not be the case for you almost certainly, but you can do this in your own fork of the repository. Occasionally, organizational reasons might lead to you having control of this action mechanism too, if you happen to be an organization we are working with. In that case, refer to this [manual](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow).
+This repository is scheduled to re-build and deploy the website X times a day. This means content from the source repositories are pulled and website is built again accordingly. If documentation changes are pushed to one of the source repositories, it might not appear instantly once they are pushed, you have to wait until the website rebuilds automatically.
 
 ## Managing Antora Specs Documentation
 
