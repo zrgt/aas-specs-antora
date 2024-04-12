@@ -14,13 +14,13 @@ Refer to  the https://industrialdigitaltwin.org[IDTA,window=_blank] for more inf
 [cols="1,1"]
 |===
 a|
-image::IDTA-01001-3-1.png[xref=IDTA-01001:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+image::IDTA-01001.png[xref=IDTA-01001:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
 xref:IDTA-01001:ROOT:index.adoc[Part 1: Metamodel, window=_blank,opts=nofollow]
 
 
 The Metamodel of the AAS.
 a|
-image::IDTA-01002-3-1.png[xref=IDTA-01002-3:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
+image::IDTA-01002.png[xref=IDTA-01002-3:ROOT:index.adoc, window=_blank,opts=nofollow,width=300,height=900]
 xref:IDTA-01002-3:ROOT:index.adoc[Part 2: API, window=_blank,opts=nofollow]
 
 The API of the AAS.
