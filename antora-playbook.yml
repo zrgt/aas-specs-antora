@@ -14,6 +14,9 @@ content:
     - url: https://github.com/admin-shell-io/aas-specs-api
       branches: IDTA-01002-3-1_preparation
       start-paths: documentation/IDTA-01002-3
+    - url: https://github.com/rwth-iat/aas-specs-api
+      branches: fix/refs
+      start-paths: documentation/IDTA-01002-3
     - url: https://github.com/admin-shell-io/aas-specs-iec61360
       branches: IDTA-01003-a-3-1_working
       start-paths: documentation/IDTA-01003-a
