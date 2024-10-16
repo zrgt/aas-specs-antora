@@ -1,6 +1,6 @@
 name: index
-title: The Asset Administration Shell Specification
-version: dev
+title: Specification of the Asset Administration Shell
+version: home
 start_page: ROOT:index.adoc
 nav:
     - modules/ROOT/nav.adoc
